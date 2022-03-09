@@ -15,7 +15,14 @@
         * model (string)
         * color (string)
         * brand (string)
-3. GET    /car/[ID]
+
+    Example: \
+    ![Create a car](https://github.com/Evando2000/simplecarapi/blob/main/docs/2_create_car.PNG?raw=true)
+
+3. GET    /car/[ID] \
+    Example: \
+    ![Get a car](https://github.com/Evando2000/simplecarapi/blob/main/docs/3_get_car_by_id.PNG?raw=true)
+
 4. PUT    /car/[ID]
     * Content-type:
         * multipart/form-data
@@ -23,8 +30,19 @@
         * model (string)
         * color (string)
         * brand (string)
-5. DELETE /car/[ID]
-6. POST   /file/
+
+    Example: \
+    ![Update a car](https://github.com/Evando2000/simplecarapi/blob/main/docs/4_update_car.PNG?raw=true)
+
+5. DELETE /car/[ID] \
+    Example: \
+    ![Delete a car](https://github.com/Evando2000/simplecarapi/blob/main/docs/5_delete_car.PNG?raw=true)
+
+6. POST   /file/ \
+    Example: \
+    ![Upload a file](https://github.com/Evando2000/simplecarapi/blob/main/docs/6_upload_file.PNG?raw=true)
+    Uploaded file: \
+    ![Uploaded file](https://github.com/Evando2000/simplecarapi/blob/main/docs/7_uploaded_file.PNG?raw=true)
 
 ## How to run (Windows)
 1. Download file 'lab4.exe' and run it. Done.
