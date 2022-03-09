@@ -57,3 +57,6 @@
     ```cmd
     ./lab4
     ```
+
+## Deployment
+1. Deployed at: [Heroku](https://simplecarapi.herokuapp.com/)
