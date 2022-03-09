@@ -18,9 +18,12 @@ func getEnv(key, defaultValue string) string {
 var carList []Car
 
 func prepare() {
-	err := os.Mkdir("./files", 0755)
-	if err != nil {
-		log.Fatal(err.Error())
+	uploadDir := "./files"
+	if _, err := os.Stat(uploadDir); os.IsNotExist(err) {
+		err := os.Mkdir(uploadDir, 0755)
+		if err != nil {
+			log.Fatal(err.Error())
+		}
 	}
 
 	newCar := Car{

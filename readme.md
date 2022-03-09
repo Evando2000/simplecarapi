@@ -4,7 +4,10 @@
 * NPM : 1806205445
 
 ## Endpoint
-1. GET    /car/
+1. GET    /car/ \
+    Example: \
+    ![Get all cars](https://github.com/Evando2000/simplecarapi/blob/main/docs/1_get_all.PNG?raw=true)
+
 2. POST   /car/
     * Content-type:
         * multipart/form-data
