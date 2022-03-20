@@ -11,6 +11,20 @@ func getAllCarsHandler(c *gin.Context) {
 	c.JSON(200, gin.H{"response": carList})
 }
 
+func deleteAllCarHandler(c *gin.Context) {
+	carList = nil
+	carList = []Car{}
+	newCar := Car{
+		ID:    "0",
+		Model: "SUV",
+		Color: "Black",
+		Brand: "newBrand",
+	}
+
+	carList = append(carList, newCar)
+	c.JSON(200, gin.H{"response": carList})
+}
+
 func getCarHandler(c *gin.Context) {
 	id := c.Param("id")
 	car, err := getCarByID(id)
