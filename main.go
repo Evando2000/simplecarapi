@@ -57,6 +57,6 @@ func main() {
 		fileGroupRouter.POST("/", uploadFileHandler)
 	}
 
-	port := getEnv("PORT", "8080")
+	port := getEnv("PORT", "9093")
 	router.Run(":" + port)
 }
